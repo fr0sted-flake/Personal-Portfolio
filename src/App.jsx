@@ -5,7 +5,7 @@ function App() {
 
   return (
     <>
-     <h1>Chaiiiii</h1>
+     <h1 className="bg-slate-400">Chaiiiii</h1>
     </>
   )
 }
