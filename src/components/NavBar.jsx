@@ -29,7 +29,7 @@ function NavBar() {
       <div>
         <h1 className="text-5xl font-signature ml-2">Ayush</h1>
       </div>
-      <ul className="flex">
+      <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -39,6 +39,9 @@ function NavBar() {
           </li>
         ))}
       </ul>
+      <div className="cursor-pointer pr-4 z-10 text-gray-500">
+        <FaBars size={30} />
+      </div>
     </div>
   );
 }
