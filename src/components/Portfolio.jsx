@@ -9,10 +9,10 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg";
 function Portfolio() {
   return (
     <div name="portfolio" className="bg-gradient-to-b from-black to bg-gray-800 w-full text-white md:h-screen">
-      <div>
-        <div>
-          <p>Portfolio</p>
-          <p>Check out some of my work right here</p>
+      <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">Portfolio</p>
+          <p className="py-6">Check out some of my work right here</p>
         </div>
         <div>
         <div>
