@@ -8,7 +8,7 @@ import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 function Portfolio() {
   return (
-    <div>
+    <div name="portfolio" className="bg-gradient-to-b from-black to bg-gray-800 w-full text-white md:h-screen">
       <div>
         <div>
           <p>Portfolio</p>
