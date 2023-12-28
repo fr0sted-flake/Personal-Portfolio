@@ -5,7 +5,18 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 
 function SocialLinks() {
   return (
-    <div>SocialLinks</div>
+    <div className='flex flex-col top-[35%] left-0 fixed'>
+        <ul>
+            <li>
+                <a href="">
+                    {""}
+                    <>
+                    Linkedin <FaLinkedin/>
+                    </>
+                </a>
+            </li>
+        </ul>
+    </div>
   )
 }
 
