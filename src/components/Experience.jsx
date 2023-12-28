@@ -9,7 +9,22 @@ import tailwind from "../assets/tailwind.png";
 
 function Experience() {
   return (
-    <div>Experience</div>
+    <div>
+        <div>
+            <div>
+                <p>Experience</p>
+                <p>
+                    These are the technologies I've worked with
+                </p>
+            </div>
+            <div>
+                <div>
+                    <img src={html} alt="" />
+                    <p>HTML</p>
+                </div>
+            </div>
+        </div>
+    </div>
   )
 }
 
