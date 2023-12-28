@@ -7,7 +7,7 @@ function SocialLinks() {
   return (
     <div className='flex flex-col top-[35%] left-0 fixed'>
         <ul>
-            <li className='flex justify-between items-center w-40 h-14 px-4 bg-black'>
+            <li className='flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] bg-gray-500 '>
                 <a href="" className='flex justify-between items-center w-4 text-white'>
                     {""}
                     <>
