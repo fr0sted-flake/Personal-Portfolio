@@ -13,8 +13,8 @@ function Contact() {
           </p>
           <p className="py-6">Submit the form below to get in touch with me</p>
         </div>
-        <div>
-          <form action="" className="">
+        <div className="flex justify-center items-center">
+          <form action="" className="flex flex-col w-full md:w-1/2">
             <input
               type="text"
               name="name"
@@ -25,7 +25,7 @@ function Contact() {
               type="text"
               name="email"
               placeholder="Enter your email"
-              className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
+              className="my-4 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
               name="message"
