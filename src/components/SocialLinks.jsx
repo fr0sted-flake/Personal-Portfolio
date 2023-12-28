@@ -7,11 +7,11 @@ function SocialLinks() {
   return (
     <div className='flex flex-col top-[35%] left-0 fixed'>
         <ul>
-            <li className='flex justify-between items-center w-40 h-1/4 px-4 bg-white'>
-                <a href="">
+            <li className='flex justify-between items-center w-40 h-14 px-4 bg-black'>
+                <a href="" className='flex justify-between items-center w-4 text-white'>
                     {""}
                     <>
-                    Linkedin <FaLinkedin/>
+                    Linkedin <FaLinkedin size={30}/>
                     </>
                 </a>
             </li>
