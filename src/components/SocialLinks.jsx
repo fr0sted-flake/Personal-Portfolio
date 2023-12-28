@@ -1,23 +1,65 @@
-import React from 'react'
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import React from "react";
+import { FaGit, FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 
 function SocialLinks() {
+  const links = [
+    {
+      id: 1,
+      child: (
+        <>
+          Linkedin <FaLinkedin size={30} />
+        </>
+      ),
+      href: "https://linkedin.com",
+      style: "rounded-tr-md",
+    },
+    {
+      id: 2,
+      child: (
+        <>
+          GitHub <FaGithub size={30} />
+        </>
+      ),
+      href: "https://github.com/fr0sted-flake",
+    },
+    {
+      id: 3,
+      child: (
+        <>
+          Mail <HiOutlineMail size={30} />
+        </>
+      ),
+      href: "mailto:lamdlala841@gmail.com",
+    },
+    {
+      id: 4,
+      child: (
+        <>
+          Resume <BsFillPersonLinesFill size={30} />
+        </>
+      ),
+      href: "/HTML certificate.pdf",
+      style: "rounded-br-md",
+      download: true,
+    },
+  ];
+
   return (
-    <div className='flex flex-col top-[35%] left-0 fixed'>
-        <ul>
-            <li className='flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] bg-gray-500 '>
-                <a href="" className='flex justify-between items-center w-4 text-white'>
-                    {""}
-                    <>
-                    Linkedin <FaLinkedin size={30}/>
-                    </>
-                </a>
-            </li>
-        </ul>
+    <div className="flex flex-col top-[35%] left-0 fixed">
+      <ul>
+        <li className="flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:rounded-md duration-300 hover:ml-[-10px] bg-gray-500 ">
+          <a
+            href=""
+            className="flex justify-between items-center w-full text-white"
+          >
+            {""}
+          </a>
+        </li>
+      </ul>
     </div>
-  )
+  );
 }
 
-export default SocialLinks
+export default SocialLinks;
