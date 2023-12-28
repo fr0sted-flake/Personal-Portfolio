@@ -45,13 +45,9 @@ function Portfolio() {
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
-
-        {portfolios.map(({ id, src }) => (
-          <div
-            key={id}
-            className="grid sm:grid-cols-2 md: grid-cols-3 gap-8 px-12 sm:px-0"
-          >
-            <div className="shadow-md shadow-gray-600 rounded-lg">
+        <div className="grid sm:grid-cols-2 md: grid-cols-3 gap-8 px-12 sm:px-0">
+          {portfolios.map(({ id, src }) => (
+            <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
                 alt=""
@@ -66,8 +62,8 @@ function Portfolio() {
                 </button>
               </div>
             </div>
-          </div>
-        ))}
+          ))}
+        </div>
       </div>
     </div>
   );
