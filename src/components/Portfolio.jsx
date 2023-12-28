@@ -7,7 +7,25 @@ import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
 
 function Portfolio() {
-  return <div>Portfolio</div>;
+  return (
+    <div>
+      <div>
+        <div>
+          <p>Portfolio</p>
+          <p>Check out some of my work right here</p>
+        </div>
+        <div>
+        <div>
+          <img src={reactWeather} alt="" />
+          <div>
+            <button>Demo</button>
+            <button>Code</button>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  );
 }
 
 export default Portfolio;
